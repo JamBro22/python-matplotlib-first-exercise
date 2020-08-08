@@ -13,7 +13,7 @@ m, b = np.polyfit(x, y, 1)
 plt.plot(x, m*x + b)
 
 # creating scatterplot graph
-plt.scatter(x, y, label="sales vs. temperature", color="b", marker="x")
+plt.scatter(x, y, label="sales vs. temperature", marker="x")
 
 # label axes and give a title
 plt.xlabel("Temperature")
